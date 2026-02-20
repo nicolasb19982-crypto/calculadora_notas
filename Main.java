@@ -15,5 +15,11 @@ public class Main {
         double media = suma / 3;
         
         System.out.println("La nota media es: " + media);
+
+        if (media >= 5) {
+            System.out.println("Aprobado");
+        } else {
+            System.out.println("No aprobado");
+        }
     }
 }
